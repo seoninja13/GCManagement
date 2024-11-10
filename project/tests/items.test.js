@@ -6,7 +6,7 @@ describe('Items API Tests', async () => {
   let token;
   const baseUrl = 'http://localhost:3000';
 
-  // Helper function to get auth token
+  // Helper function to get auth token, just testing
   async function getAuthToken() {
     const res = await fetch(`${baseUrl}/auth/login`, {
       method: 'POST',

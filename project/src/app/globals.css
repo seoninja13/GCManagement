@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #00b289;
+  --secondary: #253342;
+  --light: #f7f9fc;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: var(--light);
+}
